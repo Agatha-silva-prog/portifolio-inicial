@@ -54,6 +54,7 @@ div.projeto p, details{
 summary{
     padding-top: 7px;
     text-decoration: underline;
+     text-indent: 4px;
 }
 div.projeto a{
     text-decoration: none;
@@ -62,8 +63,11 @@ div.projeto a{
 div.projeto a:hover{
     text-decoration: underline;
 }
-summary{
-    text-indent: 4px;
-}
+summary:hover{
+   color: var(--escuro);
 
+}
+details{
+    cursor: pointer;
+}
 

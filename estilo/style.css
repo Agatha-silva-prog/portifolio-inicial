@@ -71,3 +71,46 @@ details{
     cursor: pointer;
 }
 
+article#skills{
+background-color: var(--contraste);
+padding: 10px;
+margin-top: 20px;
+border-radius: 6px;
+}
+div.habilidade{
+background-color: var(--branco);
+padding-left: 5px;
+padding-right: 5px;
+padding-bottom: 7px;
+
+}
+div.info{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-bottom: 0px;
+}
+div.info > p{
+font-weight: bold;
+color: var(--clara);
+font-size: 1.3em;
+margin-bottom: 4px;
+}
+div.info h3{
+    margin-bottom: 0px;
+}
+div.porcento{
+background-color: var(--contraste);
+width: 100%;
+height: 10px;
+border-radius: 10px;
+margin-top:0px ;
+}
+span{
+    background-color: var(--média);
+    border-radius: 10px;
+    height: 10px;
+display: block;
+}
+
+

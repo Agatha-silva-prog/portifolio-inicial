@@ -112,5 +112,38 @@ span{
     height: 10px;
 display: block;
 }
+h2.especial{
+    text-align: center;
+    color: var(--média);
+    background-color: var(--branco);
+    border-radius: 5px;
+    width: min-content;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+@media screen and (min-width: 800px){
+    main{
+    display: grid;
+grid-template-columns: 100px 1fr 100px;
+}
+ 
+  div.projeto{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }         
+ div.imagem{
+    width: 40%;
+ }
+ div.texto{
+    width: 60%;
+ }
+ 
+
+
+ 
+}
 
 
